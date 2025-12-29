@@ -2,34 +2,38 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import LearningSystem from "../../../public/images/website-img-1.jpg";
+import Coffeewebshite from "../../../public/images/website-img-2.webp";
+import Poswebshite from "../../../public/images/website-img-3.jpg";
+import ExtraWebshite from "../../../public/images/website-img-4.jpg";
 
 const projects = [
   {
-    name: "Wrogn ",
+    name: "Learning Management System",
     year: "Mar2025",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: LearningSystem,
     link: "#",
   },
   {
     name: "Coffee Website",
     year: "Sept2024",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: Coffeewebshite,
     link: "#",
   },
   {
     name: "Foodies Hubs",
     year: "Jan2025",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: Poswebshite,
     link: "#",
   },
   {
     name: "Bank of Luck",
     year: "May2025",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: ExtraWebshite,
     link: "#",
   },
 ];
