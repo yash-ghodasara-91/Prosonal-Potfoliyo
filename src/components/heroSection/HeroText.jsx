@@ -18,17 +18,17 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
+        className="md:text-[2.8rem] lg:text-6xl  sm:text-4xl text-orange font-bold uppercase"
       >
         Yash <br className="sm:hidden md:block" />
-        Ghodasara
+       <span className="sm:hidden md:block mt-2"> Ghodasara</span>
       </motion.h1>
       <motion.p
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4"
+        className="text-lg mt-2"
       >
         A Passionate Web Developer and Instructor <br /> with 0 years of
         experience.
